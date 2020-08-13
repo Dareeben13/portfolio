@@ -1,0 +1,85 @@
+.homepage-wrapper {
+	position: absolute;
+	top: 0;
+	margin-top: 20%;
+	width: 100%;
+}
+.homepage-text > .hello {
+	font-family: fantasy;
+	font-size: 30px;
+	padding-top: 40pxpx;
+	padding-bottom: 30px;
+	color: darkgoldenrod;
+	width: 30%;
+}
+
+.surname {
+	color: rgb(184, 135, 11);
+}
+
+.homepage-text > .name {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 60px;
+	padding: 40px 0px;
+}
+.engineer {
+	color: darkgoldenrod;
+}
+.homepage-text > .description {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 60px;
+	padding: 40px 0px;
+}
+
+.flex-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.my-svg img {
+	width: 600px;
+	height: 500px;
+	padding-right: 20px;
+}
+
+.home-btn {
+	max-width: 40%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn1 > button {
+	height: 60px;
+	width: 135px;
+	text-align: center;
+	background-color: darkgoldenrod !important;
+	border: 1px solid darkgoldenrod;
+	border-radius: 30px;
+	margin: 10px 10px;
+	transition: 0.5s;
+}
+
+.btn1 > button:hover {
+	background-color: transparent !important;
+	color: darkgoldenrod;
+}
+
+.btn2 > button {
+	height: 60px;
+	width: 130px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: transparent !important;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin: 10px 10px;
+	transition: 0.5s;
+}
+
+.btn2 > button:hover {
+	color: darkgoldenrod;
+	border: 1px solid darkgoldenrod;
+}
