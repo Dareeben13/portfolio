@@ -1,7 +1,6 @@
 .landing {
 	font-family: 'Roboto', sans-serif;
-	background-color: #0d0d0d;
-	scroll-behavior: smooth;
+	background-color: rgba(0, 0, 0, 0.945);
 }
 .container {
 	width: 95%;

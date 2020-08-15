@@ -6,7 +6,7 @@
 	position: fixed;
 	width: 95%;
 	background-color: rgba(0, 0, 0, 0.945);
-	z-index: 2;
+	z-index: 1;
 }
 
 h3 {
