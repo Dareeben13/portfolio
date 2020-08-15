@@ -10,10 +10,16 @@ function NavBar() {
 			</Slide>
 			<Slide right>
 				<ul className="nav-wrapper">
-					<li className="nav-link">Home</li>
-					<li className="nav-link">About</li>
+					<a href="#home">
+						<li className="nav-link">Home</li>
+					</a>
+					<a href="#about">
+						<li className="nav-link">About</li>
+					</a>
+					<a href="/projects">
+						<li className="nav-link">Projects</li>
+					</a>
 					<li className="nav-link">Services</li>
-					<li className="nav-link">My Blog</li>
 					<li className="nav-link">Contact</li>
 				</ul>
 			</Slide>

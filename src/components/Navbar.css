@@ -1,10 +1,10 @@
 .nav-container {
-	height: 80px;
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-	width: 96%;
+	width: 95%;
 	background-color: rgba(0, 0, 0, 0.945);
 	z-index: 2;
 }
@@ -38,7 +38,7 @@ h3 {
 	color: rgba(255, 255, 255, 0.466);
 }
 
-li:after {
+.nav-link:after {
 	content: '';
 	display: inline-block;
 	height: 3px;
@@ -46,7 +46,7 @@ li:after {
 	background: transparent;
 	transition: width .5s ease, background-color .5s ease;
 }
-li:hover:after {
+.nav-link:hover:after {
 	width: 100%;
 	background: darkgoldenrod;
 }

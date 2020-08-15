@@ -1,16 +1,18 @@
 .homepage-wrapper {
-	position: absolute;
-	top: 0;
-	margin-top: 20%;
+	height: 100vh;
 	width: 100%;
+	color: white;
+}
+
+.flex-container {
+	padding-top: 20%;
 }
 .homepage-text > .hello {
 	font-family: fantasy;
 	font-size: 30px;
-	padding-top: 40pxpx;
 	padding-bottom: 30px;
 	color: darkgoldenrod;
-	width: 30%;
+	width: 20%;
 }
 
 .surname {
@@ -19,7 +21,7 @@
 
 .homepage-text > .name {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 60px;
+	font-size: 70px;
 	padding: 40px 0px;
 }
 .engineer {
@@ -27,7 +29,7 @@
 }
 .homepage-text > .description {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 60px;
+	font-size: 70px;
 	padding: 40px 0px;
 }
 
@@ -39,9 +41,9 @@
 }
 
 .my-svg img {
-	width: 600px;
-	height: 500px;
-	padding-right: 20px;
+	width: 500px;
+	height: -webkit-fill-available;
+	/* margin-right: 20%; */
 }
 
 .home-btn {
@@ -51,7 +53,7 @@
 	align-items: center;
 }
 
-.btn1 > button {
+.btn1 > a > button {
 	height: 60px;
 	width: 135px;
 	text-align: center;
@@ -59,15 +61,16 @@
 	border: 1px solid darkgoldenrod;
 	border-radius: 30px;
 	margin: 10px 10px;
-	transition: 0.5s;
+	transition: 0.3s;
+	outline: none;
 }
 
-.btn1 > button:hover {
+.btn1 > a > button:hover {
 	background-color: transparent !important;
 	color: darkgoldenrod;
 }
 
-.btn2 > button {
+.btn2 > a > button {
 	height: 60px;
 	width: 130px;
 	text-align: center;
@@ -76,10 +79,11 @@
 	border: 1px solid white;
 	border-radius: 30px;
 	margin: 10px 10px;
-	transition: 0.5s;
+	transition: 0.3s;
+	outline: none;
 }
 
-.btn2 > button:hover {
+.btn2 > a > button:hover {
 	color: darkgoldenrod;
 	border: 1px solid darkgoldenrod;
 }
