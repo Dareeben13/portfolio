@@ -29,7 +29,7 @@ function Home() {
 						</div>
 					</div>
 				</Fade>
-				<Fade bottom>
+				<Fade right>
 					<div className="my-svg">
 						<ImageDrawer />
 					</div>

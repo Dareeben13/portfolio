@@ -8,7 +8,7 @@ function NavBar() {
 			<Slide top>
 				<h3>Welcome</h3>
 			</Slide>
-			<Slide right>
+			<Slide top>
 				<ul className="nav-wrapper">
 					<a href="#home">
 						<li className="nav-link">Home</li>
