@@ -35,6 +35,7 @@ function About() {
 							<li>Email:</li>
 							<li>Phone:</li>
 							<li>GitHub:</li>
+                            <li>Twitter</li>
 						</ul>
 						<ul className="grid-ul2">
 							<li>Eben Kolawole</li>
@@ -42,6 +43,7 @@ function About() {
 							<li>e2kelly2000@gmail.com</li>
 							<li>+234-906-342-7447</li>
 							<li>Dareeben13</li>
+                            <li>@thedarekeys</li>
 						</ul>
 					</div>
 				</Fade>
