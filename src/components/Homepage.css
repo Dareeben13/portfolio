@@ -23,6 +23,7 @@
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 70px;
 	padding: 40px 0px;
+	width : max-content;
 }
 .engineer {
 	color: darkgoldenrod;
@@ -31,6 +32,7 @@
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 70px;
 	padding: 40px 0px;
+	width : max-content;
 }
 
 .flex-container {
@@ -41,8 +43,9 @@
 }
 
 .my-svg img {
-	width: 500px;
+	position : relative;
 	height: -webkit-fill-available;
+	left : 60px
 	/* margin-right: 20%; */
 }
 
