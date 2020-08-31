@@ -1,7 +1,7 @@
 import React from 'react';
+import data from './data';
+import ProjectItem from './ProjectItem';
 
-function Projects() {
-	return <div>Projects</div>;
-}
+const Projects = () => data.length > 0 && <div className="timeline-container" />;
 
 export default Projects;

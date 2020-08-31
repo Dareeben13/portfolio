@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import mySvg1 from '../Images/undraw_working_from_anywhere_ub67.svg';
 import mySvg2 from '../Images/svg3.svg';
-import svg4 from '../Images/svg4.svg';
 
-const image = [ mySvg1, mySvg2, svg4 ];
+const image = [ mySvg1, mySvg2];
 
 class ImageDrawer extends Component {
 	state = { images: image, selectedImage: image[0] };

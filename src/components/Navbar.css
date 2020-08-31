@@ -14,7 +14,7 @@ h3 {
 	font-family: 'Satisfy', cursive;
 	padding-top: 20px;
 	cursor: pointer;
-	color: rgba(255, 255, 255, 0.788);
+	color: rgb(255, 255, 255);
 }
 
 .nav-wrapper {
@@ -22,31 +22,34 @@ h3 {
 	align-items: center;
 	list-style: none;
 	width: 800px;
-	margin-left: 80px;
 }
 
-.nav-link {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 1.5rem;
+.nav-wrapper a {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.3rem;
 	text-align: center;
 	margin: 0px 40px;
 	cursor: pointer;
 	height: 40px;
-	letter-spacing: 1px;
+	letter-spacing: 1.4px;
 	padding-top: 10px;
-	transition: 0.5s;
-	color: rgba(255, 255, 255, 0.466);
+	transition: 0.3s;
+	color: rgba(255, 255, 255, 0.973);
 }
 
-.nav-link:after {
+.nav-wrapper a::after {
 	content: '';
 	display: inline-block;
 	height: 3px;
 	width: 0px;
 	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+	transition: width .4s ease, background-color .5s ease;
 }
-.nav-link:hover:after {
+.nav-wrapper a:hover::after {
 	width: 100%;
 	background: darkgoldenrod;
+}
+
+.nav-container > .nav-wrapper .active {
+	color: darkgoldenrod;
 }

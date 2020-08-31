@@ -6,7 +6,7 @@ import Fade from 'react-reveal';
 
 function About() {
 	return (
-		<section id="about" className="abt">
+		<div id="about" className="abt">
 			<Fade left>
 				<div className="svg-container">
 					<img src={svg} alt="illustration" />
@@ -35,7 +35,7 @@ function About() {
 							<li>Email:</li>
 							<li>Phone:</li>
 							<li>GitHub:</li>
-                            <li>Twitter</li>
+							<li>Twitter</li>
 						</ul>
 						<ul className="grid-ul2">
 							<li>Eben Kolawole</li>
@@ -43,7 +43,7 @@ function About() {
 							<li>e2kelly2000@gmail.com</li>
 							<li>+234-906-342-7447</li>
 							<li>Dareeben13</li>
-                            <li>@thedarekeys</li>
+							<li>@thedarekeys</li>
 						</ul>
 					</div>
 				</Fade>
@@ -53,11 +53,11 @@ function About() {
 						<h4>
 							<span>100</span> Projects Complete
 						</h4>
-						<Button text="DOWNLOAD CV" link="#home" />
+						<Button text="DOWNLOAD CV" link="home" />
 					</div>
 				</Fade>
 			</div>
-		</section>
+		</div>
 	);
 }
 

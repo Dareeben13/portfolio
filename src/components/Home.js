@@ -6,7 +6,7 @@ import ImageDrawer from './ImageDrawer';
 
 function Home() {
 	return (
-		<section className="homepage-wrapper" id="home">
+		<div className="homepage-wrapper" id="home">
 			<div className="flex-container">
 				<Fade left>
 					<div className="homepage-text">
@@ -21,10 +21,10 @@ function Home() {
 
 						<div className="home-btn">
 							<div className="btn1">
-								<Button text="Hire me" link="#about" />
+								<Button text="Hire me" link="about" />
 							</div>
 							<div className="btn2">
-								<Button text="Contact Me" />
+								<Button text="Contact Me" link="about" />
 							</div>
 						</div>
 					</div>
@@ -35,7 +35,7 @@ function Home() {
 					</div>
 				</Fade>
 			</div>
-		</section>
+		</div>
 	);
 }
 
